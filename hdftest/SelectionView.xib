@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="h2U-AH-rKa" customClass="SelectionView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="e5l-yt-DZR">
+                    <rect key="frame" x="31" y="29" width="45" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="0.099200510180000007" blue="0.080359701350000007" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="11"/>
+                    <state key="normal" title="门店一">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="click:" destination="h2U-AH-rKa" eventType="touchUpInside" id="Rku-u3-j98"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eA0-a0-r8U">
+                    <rect key="frame" x="31" y="75" width="45" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="0.099200510180000007" blue="0.080359701350000007" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="11"/>
+                    <state key="normal" title="门店五">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="click:" destination="h2U-AH-rKa" eventType="touchUpInside" id="PYf-qf-Rvi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0mO-nb-0Hc">
+                    <rect key="frame" x="104" y="29" width="45" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="0.099200510180000007" blue="0.080359701350000007" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="11"/>
+                    <state key="normal" title="门店二">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="click:" destination="h2U-AH-rKa" eventType="touchUpInside" id="lhn-Ez-88U"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tgB-UN-rU6">
+                    <rect key="frame" x="172" y="29" width="45" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="0.099200510180000007" blue="0.080359701350000007" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="11"/>
+                    <state key="normal" title="门店三">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="click:" destination="h2U-AH-rKa" eventType="touchUpInside" id="XLR-ve-swl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SOp-ZF-8ug">
+                    <rect key="frame" x="245" y="29" width="45" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="0.099200510180000007" blue="0.080359701350000007" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="11"/>
+                    <state key="normal" title="门店四">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="click:" destination="h2U-AH-rKa" eventType="touchUpInside" id="JHy-oe-Ddl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="207" y="272"/>
+        </view>
+    </objects>
+</document>
