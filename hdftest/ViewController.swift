@@ -26,23 +26,7 @@ class ViewController: UIViewController,SelectionViewDelegate {
     func creatSegmentControl(){
         var array = ["1","2","3"]
         var colorArr = [UIColor.redColor(),UIColor.greenColor(),UIColor.blueColor()]
-//        let button1:UIButton = UIButton(frame: CGRectMake(0, 40, self.view.frame.size.width/3, 40))
-////        button1.titleLabel!.text = array[0];
-//        button1.setTitle(array[0], forState: UIControlState.Normal)
-//        button1.backgroundColor = UIColor.redColor()
-//        button1.addTarget(self, action: "click:", forControlEvents: UIControlEvents.TouchUpInside)
-//
-//        let button2:UIButton = UIButton(frame: CGRectMake(self.view.frame.size.width/3, 40, self.view.frame.size.width/3, 40))
-//        button2.setTitle(array[1], forState: UIControlState.Normal)
-//        button2.backgroundColor = UIColor.blackColor()
-//        
-//        let button3:UIButton = UIButton(frame: CGRectMake(self.view.frame.size.width*2/3,40, self.view.frame.size.width/3, 40))
-//        button3.setTitle(array[2], forState: UIControlState.Normal)
-//        button3.backgroundColor = UIColor.blueColor()
-//        
-//        self.view.addSubview(button1)
-//        self.view.addSubview(button2)
-//        self.view.addSubview(button3)
+
         for var i = 0 ; i<array.count ;i++ {
             
             let button:UIButton = UIButton(frame: CGRectMake(CGFloat(i)*self.view.frame.size.width/3, 40, self.view.frame.size.width/3, 40))
@@ -62,6 +46,7 @@ class ViewController: UIViewController,SelectionViewDelegate {
     //func click
     
     func click(sender:UIButton!){
+        
         if !haveSelectview {
             showSelectView()
         }else{
@@ -78,6 +63,9 @@ class ViewController: UIViewController,SelectionViewDelegate {
     }
     
     func choose(info: String!) {
+        
+        hideSelectView()
+        
         let alert = UIAlertView()
         alert.title = "提示"
         alert.message = "选择了\(info)"
